@@ -1,10 +1,7 @@
 import helper
-from flask import Flask, request, Response
-import json
 import random
 
 # print(f"Starting {__file__}")
-app = Flask(__name__)
 
 
 x = random.randint(0, 10)

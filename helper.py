@@ -76,3 +76,16 @@ def record_fail():
         conn.commit()
     except Exception as e:
         print("Error: ", e)
+
+
+# test schedules
+def hello_world():
+    print("Hello World!")
+
+
+def goodbye():
+    print("Goodbye")
+
+
+def flavor_text():
+    print("Doing something now")
